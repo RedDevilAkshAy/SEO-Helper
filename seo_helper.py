@@ -10,7 +10,7 @@ import csv
 
 from os import getenv
 
-SERP_API_KEY = getenv('SERP_API_KEY', '')
+SERP_API_KEY = getenv('SERP_API_KEY', '') 
 GOOGLE_API_KEY = getenv('GOOGLE_API_KEY', '')
 GEMINI_API_KEY = getenv('GEMINI_API_KEY', '')
 
