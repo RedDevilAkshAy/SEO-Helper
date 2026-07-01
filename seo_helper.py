@@ -101,28 +101,6 @@ class LeadHelper:
             return None
 
     # -------------------------
-    # VALIDATION CHECK
-    # -------------------------
-    # def is_valid_site(self, url):
-    #     try:
-    #         headers = {
-    #             "User-Agent": "Mozilla/5.0"
-    #         }
-
-    #         response = self.session.get(url, headers=headers, timeout=10)
-    #         if response.status_code != 200:
-    #             return False
-
-    #         html = response.text.lower()
-
-    #         return any(
-    #             kw in html for kw in self.validation_keywords
-    #         )
-
-    #     except Exception:
-    #         return False
-
-    # -------------------------
     # EXCLUDE CHECK
     # -------------------------
     def is_excluded(self, text):
